@@ -1,16 +1,14 @@
-# todoapp
+TO DO Uygulaması:
+Teknoloji: Bloc Yapısı, Isar Database
 
-A new Flutter project.
+Açıklama: TO DO Uygulaması, kullanıcıların günlük görevlerini organize etmelerine ve planlamalarına olanak sağlayan, verimli bir görev yönetim uygulamasıdır. Kullanıcılar, yapılacak işler listesi oluşturarak görevlerini takip edebilir, tamamlanan görevleri işaretleyebilir ve gerektiğinde görevlerini güncelleyebilir. Uygulama, aşağıdaki temel özellikleri sunar:
 
-## Getting Started
+Hedef: TO DO Uygulaması, kullanıcıların günlük işlerini, hatırlatmalarını ve projelerini verimli bir şekilde organize etmelerine yardımcı olmak için geliştirilmiştir. Kullanıcılar, yapılacaklar listesini takip ederek zaman yönetimini kolaylaştırabilirler.
 
-This project is a starting point for a Flutter application.
+Bloc Durum Yönetimi: Uygulamanın durum yönetiminde Bloc yapısı kullanılmıştır. Bu yapı sayesinde, görev ekleme, güncelleme ve tamamlama işlemleri kusursuz bir şekilde yapılabilmektedir. Bloc yapısı, uygulamanın performansını ve kullanıcı arayüzünün her zaman güncel olmasını sağlamak amacıyla kullanılmıştır. Kullanıcı işlemleri sırasında veri akışını etkin bir şekilde yönetir.
 
-A few resources to get you started if this is your first Flutter project:
+Isar Database: Görevlerin yerel olarak güvenli bir şekilde saklanması için Isar veritabanı kullanılmıştır. Isar, mobil cihazlarda hızlı veri erişimi sağlayan, performans odaklı bir NoSQL veritabanıdır. Kullanıcılar, internet bağlantısına ihtiyaç duymadan görevlerini kaydedebilir ve sonrasında bu görevlere kolayca erişebilir. Bu sayede, uygulama çevrimdışı kullanıma uygundur.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Görev Ekleme ve Tamamlama: Kullanıcılar, yapılacak işler listesine yeni görevler ekleyebilir ve tamamladıkları görevleri işaretleyebilir. Uygulama, kullanıcıya hangi görevlerin tamamlandığını ve hangilerinin beklemede olduğunu net bir şekilde gösterir.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Gelecek Geliştirmeler: İlerleyen sürümlerde, görevler için hatırlatıcı ekleme, görevleri önem sırasına göre sıralama ve bulut yedekleme özelliklerini geliştirmeyi planlıyorum. Ayrıca, görevlerin tamamlanma sürelerine göre analiz sağlayacak bir raporlama aracı eklemeyi hedefliyorum.
